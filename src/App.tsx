@@ -4,6 +4,7 @@ import { createTheme } from "@mui/material/styles";
 import { useMemo } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { themeSettings } from "./theme";
+import Benefit from "@/assets/BenefitsPageGraphic.png";
 
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
     <div className="app">
         <ThemeProvider theme={theme}>
           <CssBaseline />
-          hijhhj
+          hijhhj 
+
+          <img src={Benefit}/>
         </ThemeProvider>
     </div>
   );
