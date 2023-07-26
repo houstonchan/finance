@@ -4,7 +4,7 @@ import { createTheme } from "@mui/material/styles";
 import { useMemo } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { themeSettings } from "./theme";
-import Benefit from "@/assets/BenefitsPageGraphic.png";
+import Benefit from "@/BenefitsPageGraphic.png";
 
 
 function App() {
